@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.testing.test.DriverSetup">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="search_keyword"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.testing.test.DriverSetup -->
+      <class name="com.testing.test.DownloadPDF">
+        <methods>
+          <include name="Download_PDF"/>
+        </methods>
+      </class> <!-- com.testing.test.DownloadPDF -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

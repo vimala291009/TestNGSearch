@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16221" started-at="2017-04-08T08:44:22Z" finished-at="2017-04-08T08:44:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16221" started-at="2017-04-08T08:44:22Z" finished-at="2017-04-08T08:44:38Z">
+      <class name="com.testing.test.DriverSetup">
+        <test-method status="PASS" signature="launch_browser()[pri:0, instance:com.testing.test.DriverSetup@6d00a15d]" name="launch_browser" is-config="true" duration-ms="10127" started-at="2017-04-08T09:44:12Z" finished-at="2017-04-08T09:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method status="PASS" signature="search_keyword()[pri:0, instance:com.testing.test.DriverSetup@6d00a15d]" name="search_keyword" is-config="true" duration-ms="3608" started-at="2017-04-08T09:44:22Z" finished-at="2017-04-08T09:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_keyword -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:com.testing.test.DriverSetup@6d00a15d]" name="close_browser" is-config="true" duration-ms="1011" started-at="2017-04-08T09:44:38Z" finished-at="2017-04-08T09:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- com.testing.test.DriverSetup -->
+      <class name="com.testing.test.ResultClick">
+        <test-method status="PASS" signature="result_click()[pri:0, instance:com.testing.test.ResultClick@51efea79]" name="result_click" duration-ms="12592" started-at="2017-04-08T09:44:26Z" finished-at="2017-04-08T09:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result_click -->
+      </class> <!-- com.testing.test.ResultClick -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
